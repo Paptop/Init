@@ -1,0 +1,16 @@
+[user]
+	name = Paptop
+	email = test@email.com
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	dc = diff --cached
+	ds = diff --staged
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all --date=local
+	lg = log --graph --date=relative --color=auto --all --pretty=format:'%Cgreen%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n%w(0,4,4)%-b%n%n%-N'
+	ev = add -p
+
+	rec = !git add -p && git ci
